@@ -1,0 +1,28 @@
+[project]
+name = "mapa-errores"
+version = "0.1.0"
+description = "Ranking conceptual errors in math distractors"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy", "pandas", "scikit-learn", "rank-bm25", "sentence-transformers", "datasets", "kaggle", "six", "torch", "accelerate"]
+
+[project.scripts]
+mapa-errores = "mapa_errores.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["pytest", "ruff"]
+
+[tool.pytest.ini_options]
+markers = ["slow: downloads a model or trains it"]
+addopts = "-m 'not slow'"
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu128", marker = "sys_platform == 'win32'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

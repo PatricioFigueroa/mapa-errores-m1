@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "F-01",
+      "topic": "fracciones",
+      "skill": "Resolver problemas",
+      "difficulty": "baja",
+      "stem": "¿Cuánto es $\\frac{1}{2}+\\frac{1}{3}$?",
+      "options": { "A": "$\\frac{2}{5}$", "B": "$\\frac{5}{6}$", "C": "$\\frac{1}{6}$", "D": "$\\frac{2}{6}$" },
+      "answer": "B",
+      "solution": "Con denominador común 6: $\\frac{3}{6}+\\frac{2}{6}=\\frac{5}{6}$.",
+      "tags": {
+        "A": [{ "error": "E001", "score": 1, "source": "gold" }],
+        "C": [{ "error": "E002", "score": 1, "source": "gold" }],
+        "D": []
+      }
+    },
+    {
+      "id": "F-02",
+      "topic": "potencias",
+      "skill": "Resolver problemas",
+      "difficulty": "baja",
+      "stem": "¿Cuál es el valor de $3^2$?",
+      "options": { "A": "$6$", "B": "$9$", "C": "$5$", "D": "$8$" },
+      "answer": "B",
+      "solution": "$3^2=3\\cdot 3=9$.",
+      "tags": {
+        "A": [{ "error": "E003", "score": 1, "source": "gold" }],
+        "C": [],
+        "D": [{ "error": "E003", "score": 0.52, "source": "model" }]
+      }
+    },
+    {
+      "id": "F-03",
+      "topic": "ecuaciones",
+      "skill": "Resolver problemas",
+      "difficulty": "baja",
+      "stem": "Resuelve la ecuación $x+5=12$.",
+      "options": { "A": "$x=17$", "B": "$x=7$", "C": "$x=60$", "D": "$x=\\frac{12}{5}$" },
+      "answer": "B",
+      "solution": "Restando 5 a ambos lados: $x=12-5=7$.",
+      "tags": {
+        "A": [{ "error": "E004", "score": 1, "source": "gold" }],
+        "C": [],
+        "D": []
+      }
+    },
+    {
+      "id": "F-04",
+      "topic": "algebra",
+      "skill": "Representar",
+      "difficulty": "media",
+      "stem": "¿Qué expresión es equivalente a $3(x+4)$?",
+      "options": { "A": "$3x+4$", "B": "$3x+12$", "C": "$3x+7$", "D": "$x+12$" },
+      "answer": "B",
+      "solution": "Se distribuye el 3 a ambos términos: $3\\cdot x+3\\cdot 4=3x+12$.",
+      "tags": {
+        "A": [{ "error": "E005", "score": 1, "source": "gold" }],
+        "C": [],
+        "D": []
+      }
+    },
+    {
+      "id": "F-05",
+      "topic": "fracciones",
+      "skill": "Resolver problemas",
+      "difficulty": "media",
+      "stem": "¿Cuánto es $\\frac{2}{3}+\\frac{1}{4}$?",
+      "options": { "A": "$\\frac{3}{7}$", "B": "$\\frac{11}{12}$", "C": "$\\frac{2}{12}$", "D": "$\\frac{3}{12}$" },
+      "answer": "B",
+      "solution": "Con denominador común 12: $\\frac{8}{12}+\\frac{3}{12}=\\frac{11}{12}$.",
+      "tags": {
+        "A": [{ "error": "E001", "score": 1, "source": "gold" }],
+        "C": [{ "error": "E002", "score": 1, "source": "gold" }],
+        "D": []
+      }
+    }
+  ]
+}

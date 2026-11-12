@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "language": "es",
+  "items": [
+    {
+      "id": "E001",
+      "name": "Suma numeradores y denominadores por separado al sumar fracciones",
+      "description": "Trata la suma de fracciones como dos sumas independientes: numerador con numerador y denominador con denominador.",
+      "topic": "fracciones",
+      "activity": "Representa $\\frac{1}{2}$ y $\\frac{1}{3}$ en una misma barra dividida en sextos. ¿Cuántos sextos ocupa cada una? Compara con $\\frac{2}{5}$."
+    },
+    {
+      "id": "E002",
+      "name": "Multiplica las fracciones cuando debe sumarlas",
+      "description": "Aplica el procedimiento de la multiplicación (numerador por numerador, denominador por denominador) en una suma.",
+      "topic": "fracciones",
+      "activity": "Estima antes de calcular: ¿$\\frac{1}{2}+\\frac{1}{3}$ es mayor o menor que $\\frac{1}{2}$? Revisa si tu resultado cumple esa estimación."
+    },
+    {
+      "id": "E003",
+      "name": "Multiplica la base por el exponente en lugar de calcular la potencia",
+      "description": "Interpreta $a^n$ como $a \\cdot n$.",
+      "topic": "potencias",
+      "activity": "Escribe $3^2$, $3^3$ y $3^4$ como multiplicaciones repetidas y calcula cada una. Compara con $3\\cdot 2$, $3\\cdot 3$ y $3\\cdot 4$."
+    },
+    {
+      "id": "E004",
+      "name": "No cambia la operación al trasladar un término al otro lado de la ecuación",
+      "description": "Al despejar, traslada el término y repite la misma operación en vez de aplicar la inversa.",
+      "topic": "ecuaciones",
+      "activity": "Resuelve $x+5=12$ restando 5 a ambos lados y escribe cada paso. Luego verifica reemplazando tu valor de $x$."
+    },
+    {
+      "id": "E005",
+      "name": "Distribuye el factor solo al primer término del paréntesis",
+      "description": "En $a(b+c)$ multiplica $a$ por $b$ y deja $c$ sin multiplicar.",
+      "topic": "algebra",
+      "activity": "Calcula $3(2+4)$ de dos formas: sumando primero y distribuyendo. ¿Coinciden? Repite con $3(x+4)$ para $x=2$."
+    },
+    {
+      "id": "E006",
+      "name": "Suma los exponentes al elevar una potencia a otra potencia",
+      "description": "Confunde $(a^m)^n$ con $a^m \\cdot a^n$ y obtiene $a^{m+n}$.",
+      "topic": "potencias",
+      "activity": "Desarrolla $(2^3)^2$ como $2^3\\cdot 2^3$ y cuenta cuántas veces aparece el factor 2."
+    }
+  ]
+}

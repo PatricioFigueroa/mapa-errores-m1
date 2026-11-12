@@ -1,0 +1,26 @@
+# data and generated artifacts never enter git (see AGENTS.md)
+data/eedi/
+artifacts/
+ml/runs/
+ml/.uv-cache/
+ml/.hf-cache/
+.pytest_cache/
+.ruff_cache/
+# environments and builds
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.angular/
+www/
+# secrets and local scratch
+.env
+.env.*
+!.env.example
+.superpowers/
+.worktrees/
+.claude/worktrees/
+
+# local resume notes, kept out of the public repo
+docs/bitacora.md

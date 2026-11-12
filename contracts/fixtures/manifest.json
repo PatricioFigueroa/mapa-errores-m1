@@ -1,0 +1,10 @@
+{
+  "model_id": "fixture-random-vectors",
+  "variant": "libre",
+  "dim": 384,
+  "n_catalog": 6,
+  "catalog_sha256": "c2957956ad99b94c76d40cbd869ed4c68d3d26137b97dacd1c6442bc9c36af47",
+  "threshold": 0.3,
+  "metrics": {},
+  "created": "2026-11-09"
+}
