@@ -59,6 +59,6 @@ Training needs the Eedi competition data, which cannot be redistributed: `ml/scr
 ## Data and licences
 
 - Code: MIT (see [`LICENSE`](LICENSE)).
-- The Eedi competition data and any weights trained on it are CC BY-NC 4.0 and are never committed here.
+- The Eedi competition data and any weights trained on it are CC BY-NC 4.0 and are never committed here. The CSV files under `ml/tests/fixtures/eedi/` are a handful of invented rows that only mimic the file layout, so tests can run without the real data.
 - Official PAES test items (DEMRE) are not used: their terms forbid using them to train or improve AI models without written permission.
 - The Spanish questions come from the author's own study guides.
