@@ -2,6 +2,8 @@
 
 Fecha: 2026-11-09 · Versión 2 (dos caras) · Nombre de trabajo, se puede cambiar.
 
+**Actualización 2026-11-15:** las guías ya son 10 (unas 150 preguntas) y la partición desarrollo/prueba quedó fijada por regla. Donde este documento diga 7 guías, 105 preguntas, 20 de desarrollo u 85 de prueba, manda [hoja-de-ruta.md](hoja-de-ruta.md), fases 5 y 6.
+
 Leyenda: **[Patricio]** = decidido por el autor. **[Propuesta]** = decisión de diseño, revisable. **[Verificado]** = comprobado en la fuente el 2026-11-09. **[Sin verificar]** = falta comprobar; quien lo use debe comprobarlo antes.
 
 ## 1. Qué es

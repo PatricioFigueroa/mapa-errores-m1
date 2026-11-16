@@ -2,6 +2,8 @@
 
 Especificación: [diseno.md](diseno.md). Este documento reparte el trabajo en paquetes que pueden ejecutar modelos distintos (Claude, Codex u otros) sin pisarse. Cada paquete toca solo sus carpetas y termina en algo comprobable.
 
+El paso a paso con comandos, resultados esperados y fuentes está en [hoja-de-ruta.md](hoja-de-ruta.md). Agrega un paquete que esta tabla no tenía: **L1**, la herramienta local de etiquetado (fase 6.2).
+
 ## Cómo se trabaja
 
 1. Un paquete, una rama (`pkg/<id>-<slug>`), un pull request o merge a `main`.

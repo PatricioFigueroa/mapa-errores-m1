@@ -23,7 +23,7 @@ ml/ (Python)  --builds-->  static artifacts  --read by-->  web/ (Angular + Ionic
 - **`web/`**: the model runs **in the browser** (ONNX, `transformers.js`, Web Worker), so no GPU or paid API is needed to use it and student answers never leave the device. Math is rendered with KaTeX.
 - **`server/`**: a stateless Express service for two optional LLM features (turning pasted text into a structured question, drafting a reinforcement exercise), with rate limits, schema-validated output and graceful fallback. Works with any OpenAI-compatible endpoint, including a local Ollama model.
 
-The full design (in Spanish) is in [`docs/diseno.md`](docs/diseno.md); the work plan in [`docs/plan-maestro.md`](docs/plan-maestro.md).
+The full design (in Spanish) is in [`docs/diseno.md`](docs/diseno.md); the work plan in [`docs/plan-maestro.md`](docs/plan-maestro.md) and the step-by-step roadmap in [`docs/hoja-de-ruta.md`](docs/hoja-de-ruta.md).
 
 ## Status
 
